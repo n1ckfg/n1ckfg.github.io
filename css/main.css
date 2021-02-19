@@ -8,3 +8,9 @@ body {
 	width: 640px;
 	margin: auto;
 }
+
+#back {
+	position: absolute;
+	left: 1em;
+	top: 1em;
+}
