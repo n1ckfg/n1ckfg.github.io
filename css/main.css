@@ -1,7 +1,44 @@
+@font-face {
+	font-family: 'Droid Sans';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Droid Sans'), url('http: //fonts.googleapis.com/css?family=Droid+Sans: normal'), format('truetype');
+}
+
+@font-face {
+	font-family: 'Droid Sans';
+	font-style: italic;
+	font-weight: bold;
+	src: local('Droid Sans'), url('http: //fonts.googleapis.com/css?family=Droid+Sans: bolditalic'), format('truetype');
+}
+
+@font-face {
+	font-family: 'Droid Sans';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Droid Sans'), url('http: //fonts.googleapis.com/css?family=Droid+Sans: bold'), format('truetype');
+}
+
+@font-face {
+	font-family: 'Droid Sans';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Droid Sans'), url('http: //fonts.googleapis.com/css?family=Droid+Sans: italic'), format('truetype');
+}
+
 body {
-	background: gray;
+	background: #aaaaaa;
 	font-size: 16px;
-	font-family: sans-serif;
+	font-family: "Droid Sans", sans-serif;
+}
+
+
+img {
+	border: 0px;
+}
+
+h1 {
+	font-style: italic;
 }
 
 #container {
@@ -13,8 +50,4 @@ body {
 	position: absolute;
 	left: 1em;
 	top: 1em;
-}
-
-img {
-	border: 0px;
 }
